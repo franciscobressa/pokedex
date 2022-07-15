@@ -16,8 +16,10 @@
         "bootstrap": "^4.5.2",
         "bootstrap-vue": "^2.17.3",
         "core-js": "^3.8.3",
+        "express": "^4.18.1",
         "popper.js": "^1.16.1",
         "portal-vue": "^2.1.7",
+        "serve-static": "^1.15.0",
         "vue": "^2.6.14",
         "vue-router": "^3.5.4",
         "vuetify": "^2.6.0",
@@ -57,15 +59,17 @@
             "parser": "@babel/eslint-parser"
         },
         "rules": {},
-        "overrides": [{
-            "files": [
-                "**/__tests__/*.{j,t}s?(x)",
-                "**/tests/unit/**/*.spec.{j,t}s?(x)"
-            ],
-            "env": {
-                "jest": true
+        "overrides": [
+            {
+                "files": [
+                    "**/__tests__/*.{j,t}s?(x)",
+                    "**/tests/unit/**/*.spec.{j,t}s?(x)"
+                ],
+                "env": {
+                    "jest": true
+                }
             }
-        }]
+        ]
     },
     "browserslist": [
         "> 1%",
