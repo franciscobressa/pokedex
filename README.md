@@ -1,4 +1,4 @@
-# pokedex
+# Pokedex
 
 ## Project setup
 ```
@@ -15,10 +15,6 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
+### Run unit tests
 ```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+npm run test:unit

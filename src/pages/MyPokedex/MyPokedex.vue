@@ -21,6 +21,7 @@
                             variant="danger"
                             type="submit"
                             class="col-md-3"
+                            id="delete-pokemon"
                             @click="libertarPokemon(pokemon)"
                         >
                             Libertar Pokémon
@@ -240,7 +241,7 @@
             <template v-else>
                 <h5 class="text-center">
                     Você ainda não possui nenhum Pokémon capturado.<br />
-                    <router-link to="capture">Capture um Pokémon</router-link>
+                    <router-link to="capture" id="capture-pokemon-link">Capture um Pokémon</router-link>
                     para tê-lo em sua Pokédex
                 </h5>
             </template>
