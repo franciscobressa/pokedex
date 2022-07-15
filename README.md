@@ -1,5 +1,7 @@
 # Pokedex
 
+LIVE DEMO: https://my-vue-pokedex.herokuapp.com/
+
 ## Project setup
 ```
 npm install
